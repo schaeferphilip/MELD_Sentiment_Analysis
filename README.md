@@ -1,9 +1,9 @@
-## MELD Sentiment Analysis
+# MELD Sentiment Analysis
 
 Sentiment analysis project on the MELD dataset from the TV series Friends. Using a deep learning model and natural language processing techniques, this project aims at modeling, predicting and analyzing a database of conversations between the characters of the show.
 
 
-# Dataset
+## Dataset
 
 - MELD (train, test, validate)
 - Dataset for emotion recognition in multiparty conversations from the series Friends
@@ -11,28 +11,28 @@ Sentiment analysis project on the MELD dataset from the TV series Friends. Using
 - Columns : 'Utterance', 'Speaker', 'Emotion', 'Sentiment', 'Dialogue_ID',  'Utterance_ID', 'Season', 'Episode', 'StartTime', 'EndTime'
 
 
-# Data Processing 
+## Data Processing 
 - concatenate
 - clean text
 - categorical value processing
 
-# Model Architecture
+## Model Architecture
 
 ![](/readme_images/modelarch.png)
 
-# Model Fitting
+## Model Fitting
 
 ![](/readme_images/modelfit.png)
 
 
-# Data Visualisation
+## Data Visualisation
 
 ![](/readme_images/graph1.png)
 
 ![](/readme_images/graph2.png)
 
 
-# Model Evaluation
+## Model Evaluation
 
 Test Accuracy : 0.9563218355178833 
 
@@ -42,7 +42,7 @@ Test Loss :  0.13441912829875946
 
 ![](/readme_images/testlo.png)
 
-# Conclusion
+## Conclusion
 
 In conclusion, the MELD project is an exciting development in the field of natural language processing and emotion recognition. Using a deep learning model, we were able to accurately predict the emotion of a given utterance based on factors such as sentiment and speaker.
 
